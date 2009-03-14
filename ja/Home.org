@@ -1,15 +1,15 @@
 * Ramaze
-Ramaze$B$O%7%s%W%k$G!"7Z$/$F!"%b%8%e%i!<$J%*!<%W%s%=!<%9$N(BRuby$BMQ(BWeb$B%"%W%j%1!<%7%g%s%U%l!<%`%o!<%/$G$9!#(B
+Ramazeはシンプルで、軽くて、モジュラーなオープンソースのRuby用Webアプリケーションフレームワークです。
 
-| Learn More    | Get Started | Get Involved |
+| 理解を深める    | 始めよう | 参加する |
 |---------------+-------------+--------------|
-| [[Screencasts]]   | [[Download]]    | [[http://java.freenode.net/?channel=ramaze][Chat]]         |
-| [[Features]]      | [[Walkthrough]] | [[http://groups.google.com/group/ramaze][Discuss]]      |
-| [[Benchmarks]]    | [[Walkthrough#examples][Examples]]    | [[Contributing][Contribute]]   |
-| [[Principles]]    | [[Tutorials]]   | [[Promote]]      |
-| [[Documentation]] | [[Deployment]]  | [[Innate][Next generation]]  |
+| [[スクリーンキャスト]]   | [[ダウンロード]]    | [[http://java.freenode.net/?channel=ramaze][チャット]]         |
+| [[特徴]]      | [[段階的な説明]] | [[http://groups.google.com/group/ramaze][ディスカッション]]      |
+| [[ベンチマーク]]    | [[Walkthrough#examples][サンプル　]]    | [[Contributing][貢献]]   |
+| [[方針]]    | [[チュートリアル]]   | [[宣伝]]      |
+| [[ドキュメント]] | [[デプロイ]]  | [[Innate][次の世代]]  |
 
-** $BNc!'(BHello World
+** 例：Hello World
 
 {{{ ruby
 require 'ramaze'
@@ -24,43 +24,43 @@ Ramaze.start
 }}}
 
 
-** $B3+H/(B
+** 開発
 
   * [[http://github.com/manveru/ramaze][GitHub hosted repository]]
   * [[http://source.ramaze.net][Ramaze source browser]]
   * [[http://ramaze.rubyforge.org/rdoc][RDocs]]
 
-** $B:G6a$N99?7(B
+** 最近の更新
 [[feed:http://github.com/feeds/manveru/commits/ramaze/master]]
 
-** $B:G6a$N%a!<%j%s%0%j%9%H(B
+** 最近のメーリングリスト
 [[feed:http://groups.google.com/group/ramaze/feed/rss_v2_0_msgs.xml]]
 
-** $B$=$NB>$N%U%l!<%`%o!<%/(B
+** その他のRubyフレームワーク
 
-  * [[http://borges.rubyforge.org/][Borges]], continuations based ruby web-framework originally ported from SeaSide
-  * [[http://camping.rubyforge.org/files/README.html][Camping]], _why's 4k micro-framework
-  * [[http://cerise.rubyforge.org/][Cerise]], web-framework modeled on J2EE app servers
-  * [[http://chneukirchen.org/repos/coset/][Coset]], a [[http://pastie.caboo.se/pastes/54404][simple]] RESTful mapper for Rack
-  * [[http://chneukirchen.org/talks/euruko-2007/chneukirchen-euruko2007-introducing-rack.pdf][Rack]], the [[http://rack.rubyforge.org/][Ruby web-server interface]] and [[http://macournoyer.wordpress.com/2007/12/14/rack-the-framework-framework/][framework]]
-  * [[http://deveiate.org/projects/Arrow][Arrow]], a web-app framework for Apache+mod_ruby
+  * [[http://borges.rubyforge.org/][Borges]], SeaSide由来の継続ベースのフレームワーク
+  * [[http://camping.rubyforge.org/files/README.html][Camping]], whyによる4kしかないマイクロフレームワーク
+  * [[http://cerise.rubyforge.org/][Cerise]], J2EEアプリケーションサーバをモデルにしたフレームワーク
+  * [[http://chneukirchen.org/repos/coset/][Coset]], Rackのための[[http://pastie.caboo.se/pastes/54404][シンプルな]]RESTfulマッパー
+  * [[http://chneukirchen.org/talks/euruko-2007/chneukirchen-euruko2007-introducing-rack.pdf][Rack]],  [[http://rack.rubyforge.org/][Rubyウェブサーバのインターフェイス]]と[[http://macournoyer.wordpress.com/2007/12/14/rack-the-framework-framework/][フレームワーク]]
+  * [[http://deveiate.org/projects/Arrow][Arrow]], Apache + mod_rubyのためのフレームワーク
   * [[http://enigo.com/projects/iowa/index.html][IOWA]]
-  * [[http://groups.google.com/group/eventmachine/browse_thread/thread/4c178b9f8f31f9d9][Unicycle]], an EventMachine based RESTful framework
-  * [[http://halcyon.rubyforge.org/][Halcyon]], a JSON web-app framework built on Rack
+  * [[http://groups.google.com/group/eventmachine/browse_thread/thread/4c178b9f8f31f9d9][Unicycle]], EventMachineベースのRESTfulフレームワーク
+  * [[http://halcyon.rubyforge.org/][Halcyon]], RackをベースにしたJSONアプリケーションフレームワーク
   * [[http://merbivore.com/][Merb]]
-  * [[http://rubyforge.org/projects/maveric][Maveric]], like Camping but without the magic
-  * [[http://rubywaves.com/][Waves]], a Ruby web-framework that uses Sequel as an ORM
-  * [[http://serverside.rubyforge.org/][ServerSide]], a ruby web-server and [[http://pastie.textmate.org/125318][framework]] with persistent connection & http streaming support
-  * [[http://sinatra.rubyforge.org/][Sinatra]], classy web-development dressed in a DSL
-  * [[http://vintage.devjavu.com/][Vintage]], a [[http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/286221][simple framework]] for rendering templates
-  * [[http://wisteria.swiftcore.org/][Wisteria]], a super-fast microframework
-  * [[http://wuby.org][Wuby]], another [[http://www.rubyinside.com/wuby-another-light-weight-web-framework-for-ruby-654.html][light-weight web application framework]]
-  * [[http://www.mackframework.com/][Mack]], a Rack-based Ruby web framework.
+  * [[http://rubyforge.org/projects/maveric][Maveric]], 魔術のないCampingのようなフレームワーク
+  * [[http://rubywaves.com/][Waves]], ORMとしてSequelを用いるRubyウェブフレームワーク
+  * [[http://serverside.rubyforge.org/][ServerSide]], Rubyウェブサーバと，永続接続とHTTPストリーミングサポートを持つフレームワーク
+  * [[http://sinatra.rubyforge.org/][Sinatra]], DSLで加工された洒落たフレームワーク
+  * [[http://vintage.devjavu.com/][Vintage]], テンプレートをレンダリングするための[[http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/286221][シンプルな]]フレームワーク
+  * [[http://wisteria.swiftcore.org/][Wisteria]], とても高速なマイクロフレームワーク
+  * [[http://wuby.org][Wuby]], もう一つの[[http://www.rubyinside.com/wuby-another-light-weight-web-framework-for-ruby-654.html][軽量なウェブアプリケーションフレームワーク]]
+  * [[http://www.mackframework.com/][Mack]], Rackベースのウェブフレームワーク
   * [[http://www.nitroproject.org/][Nitro]]
-  * [[http://www.ntecs.de/projects/wee/doc/rdoc/][Wee]], a [[http://rubyforge.org/projects/wee][ruby]] [[http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/128432][web-framework]] with support for [[http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/131158][continuations]]
+  * [[http://www.ntecs.de/projects/wee/doc/rdoc/][Wee]], [[http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/131158][継続]]をサポートする[[http://rubyforge.org/projects/wee][ruby]] [[http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/128432][ウェブフレームワーク]]
   * [[http://www.rubyonrails.org/][Ruby on Rails]]
 
-** $B4XO"%K%e!<%9(B
+** 関連ニュース
 
   * Antonio announces his new ruby web-framework [[http://antoniocangiano.com/2008/04/01/announcing-ruby-on-crack/][Ruby on Crack]] //on Apr 1 2008//
   * [[http://merbivore.com][Merb]] announces [[http://brainspl.at/articles/2008/03/05/merb-0-9-1-developer-release][0.9.1 developer release]] //on Mar 4 2008//
